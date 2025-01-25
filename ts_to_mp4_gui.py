@@ -259,7 +259,7 @@ stop_button = tk.Button(root, text="Stop", command=stop_conversion, bg="#dc3545"
 stop_button.pack(pady=10)
 
 # Footer
-footer_label = tk.Label(root, text="Created by YourName", font=("Arial", 8), bg="#f8f9fa", fg="#6c757d")
+footer_label = tk.Label(root, text="Created by Ezzyloweell", font=("Arial", 8), bg="#f8f9fa", fg="#6c757d")
 footer_label.pack(side=tk.BOTTOM, pady=10)
 
 # Run the main loop
