@@ -131,7 +131,13 @@ def convert_files():
 
 # Function to select input files
 def select_input_files():
-    files = filedialog.askopenfilenames(filetypes=[("TS Files", "*.ts")])
+    files = filedialog.askopenfilenames(filetypes=[
+            ("Video Files", "*.ts *.mp4 *.mkv"),
+            ("TS Files", "*.ts"),
+            ("MP4 Files", "*.mp4"),
+            ("MKV Files", "*.mkv"),
+            ("All Files", "*.*")
+        ])
     if files:
         file_listbox.delete(0, tk.END)
         for file in files:
